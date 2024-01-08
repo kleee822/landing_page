@@ -14,10 +14,68 @@ body {
 
 .header {
     background-color: #1F2937;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
 }
 
 .main_container {
     background-color: #1F2937; 
+    display: flex;
+    padding: 60px 120px 60px 120px;
+    justify-content: space-between;
+}
+
+.main_left_side {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.sign_up_button {
+    max-width: 110px;
+    padding: 5px 20px 5px;
+    border-radius: 6px;
+}
+
+.image_text {
+    padding: 70px;
+    background-color: darkgrey;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.awesome_subtext {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.awesome_subtext, .image_text {
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.info_container {
+    padding: 0px 120px 0px 120px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
 }
 
 .quote_container {
@@ -46,20 +104,11 @@ button {
     font-style: italic;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
 .random_info {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-}
-
-.awesome_subtext, .image_text {
-    color: #E5E7EB;
+    text-align: center;
 }
 
 .thor_text {
